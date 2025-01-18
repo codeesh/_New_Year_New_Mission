@@ -1,0 +1,98 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Banner\ Image.png");
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1056px;
+    height: 480px;
+    background-position: center;
+    margin: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .header-text {
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: white;
+}
+
+.banner h4 {
+    font-size: 32px;
+    margin-bottom: -40px;
+    font-weight: 400;
+}
+
+.banner h2 {
+    font-size: 72px;
+}
+
+.main-body-text {
+    text-align: center;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    color: #F00;
+}
+
+.main-body-text>h1 {
+    font-weight: 700;
+    font-size: 88px;
+}
+
+.main-body-text>p {
+    font-size: 24px;
+    margin-top: -20px;
+}
+
+.main-body-text>h4 {
+    font-size: 48px;
+    color: black;
+    margin-top: -10px;
+}
+
+.main-body-img {
+    text-align: center;
+}
+
+.main-body-img>img {
+    width: 50%;
+}
+.body-banner{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.body-banner>.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Vectorrr.png");
+}
+
+.body-banner>.banner>.header-text {
+    text-align: left;
+    margin-left: -100px;
+}
+
+.body-banner>.banner>.header-text>h4 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 24px;
+}
+
+.body-banner>.banner>.header-text>p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 400;
+    margin-top: 48px;
+    font-family: "Inter", serif;
+}
+
+.body-banner>.banner>.header-text>button {
+    color: white;
+    background: none;
+    border: none;
+    font-family: "Inter", serif;
+    font-family: Inter;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 400;
+}
