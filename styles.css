@@ -116,6 +116,7 @@
     color: white;
     padding: 15px 30px;
     margin-top: 48px;
+    cursor: pointer;
 }
 
 .time-details-section {
@@ -136,4 +137,9 @@
     font-family: "Merriweather", serif;
     font-size: 48px;
     font-weight: 900;
+} 
+.coming-soon-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
