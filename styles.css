@@ -137,9 +137,77 @@
     font-family: "Merriweather", serif;
     font-size: 48px;
     font-weight: 900;
-} 
-.coming-soon-section{
+}
+
+.coming-soon-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.coming-soon-section>div>.coming-soon {
+    font-size: 32px;
+}
+
+.new-best-offer {
+    font-size: 18px;
+    color: #07021199;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+
+.coming-soon-section>div>h3 {
+    font-size: 32px;
+}
+
+.new-best-offer-img{
+    border: 15px solid red;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-best-offer-img > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.holiday-sale > div > .highlight-text-color{
+    color: black;
+}
+.holiday-sale > div > h3 > span{
+    color: #F00;
+}
+.holiday-sale{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.discount-section{
+    position: relative;
+}
+.discount-container{
+    float: right;
+}
+.discount-img{
+    width: 300px;
+    height: 300px;
+}
+.discount-card{
+    width: 180px;
+    border-radius: 50%;
+    position: absolute;
+    right: 220px;
+    top: 50px;
+}
+.red-rectangle-section{
+    text-align: center;
+    position: relative;
+}
+.red-rectangle-section > img{
+    width: 80vw;
 }
